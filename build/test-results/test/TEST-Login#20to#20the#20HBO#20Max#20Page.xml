@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login to the HBO Max Page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-21T22:48:02" hostname="CO-IT005335" time="36.579">
+<testsuite name="Login to the HBO Max Page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-21T22:52:34" hostname="CO-IT005335" time="37.477">
   <properties/>
-  <testcase name="Agregar nueva unidad de negocio" classname="Login to the HBO Max Page" time="36.579"/>
+  <testcase name="Agregar nueva unidad de negocio" classname="Login to the HBO Max Page" time="37.477"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 9599
+  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 25446
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov. 21, 2022 5:48:05 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 21, 2022 5:52:38 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
