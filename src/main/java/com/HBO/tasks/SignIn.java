@@ -9,6 +9,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import org.openqa.selenium.Keys;
 
 import static com.HBO.userinterfaces.HomePage.*;
 
@@ -31,7 +32,7 @@ public class SignIn implements Task {
         actor.attemptsTo(
                 Click.on(LOGIN_BTN),
                 Enter.theValue(user).into(EMAIL_BOX),
-                Enter.theValue(password).into(PASSWORD_BOX),Wait.until(3),
+                Enter.theValue(password).into(PASSWORD_BOX).thenHit(Keys.TAB),
                 Click.on(LOGIN_BTN2),Wait.until(3),
                 Click.on(AVATAR_BTN), Wait.until(3)
         );
